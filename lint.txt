@@ -1,0 +1,646 @@
+﻿
+> web@0.1.0 lint
+> eslint
+
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\scripts\seed-admin.ts
+   2:13  warning  'admin' is defined but never used         @typescript-eslint/no-unused-vars
+  26:25  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\about\page.tsx
+   7:10  warning  'Users' is defined but never used         @typescript-eslint/no-unused-vars
+  10:40  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\accommodations\[id]\edit\page.tsx
+  12:54  warning  'Info' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\accommodations\[id]\page.tsx
+   40:37  error  Unexpected any. Specify a different type                         @typescript-eslint/no-explicit-any
+  340:99  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\accommodations\page.tsx
+  11:37  warning  'Users' is defined but never used                                                                                       @typescript-eslint/no-unused-vars
+  11:57  warning  'Mail' is defined but never used                                                                                        @typescript-eslint/no-unused-vars
+  11:63  warning  'Phone' is defined but never used                                                                                       @typescript-eslint/no-unused-vars
+  40:37  error    Unexpected any. Specify a different type                                                                                @typescript-eslint/no-explicit-any
+  56:26  warning  'setSelectedType' is assigned a value but never used                                                                    @typescript-eslint/no-unused-vars
+  61:8   warning  React Hook useEffect has a missing dependency: 'fetchAccommodations'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  67:8   warning  React Hook useEffect has a missing dependency: 'fetchAccommodations'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\achievements\[id]\edit\page.tsx
+   65:22  warning  'err' is defined but never used           @typescript-eslint/no-unused-vars
+  116:23  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  166:18  warning  'error' is defined but never used         @typescript-eslint/no-unused-vars
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\achievements\[id]\page.tsx
+  10:48  warning  'User' is defined but never used                      @typescript-eslint/no-unused-vars
+  10:68  warning  'Share2' is defined but never used                    @typescript-eslint/no-unused-vars
+  42:19  warning  'isAuthenticated' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\achievements\add\page.tsx
+  93:23  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\achievements\page.tsx
+  104:8  warning  React Hook useEffect has a missing dependency: 'fetchAchievements'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\admin\accommodations\page.tsx
+    4:10  warning  'Building2' is defined but never used                                                                                   @typescript-eslint/no-unused-vars
+    4:59  warning  'Eye' is defined but never used                                                                                         @typescript-eslint/no-unused-vars
+   10:5   warning  'Dialog' is defined but never used                                                                                      @typescript-eslint/no-unused-vars
+   11:5   warning  'DialogContent' is defined but never used                                                                               @typescript-eslint/no-unused-vars
+   12:5   warning  'DialogHeader' is defined but never used                                                                                @typescript-eslint/no-unused-vars
+   13:5   warning  'DialogTitle' is defined but never used                                                                                 @typescript-eslint/no-unused-vars
+   43:8   warning  React Hook useEffect has a missing dependency: 'fetchAccommodations'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  137:70  error    Unexpected any. Specify a different type                                                                                @typescript-eslint/no-explicit-any
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\admin\business\page.tsx
+    5:10  warning  'Card' is defined but never used                                                                                    @typescript-eslint/no-unused-vars
+    5:16  warning  'CardContent' is defined but never used                                                                             @typescript-eslint/no-unused-vars
+    5:29  warning  'CardHeader' is defined but never used                                                                              @typescript-eslint/no-unused-vars
+    5:41  warning  'CardTitle' is defined but never used                                                                               @typescript-eslint/no-unused-vars
+    5:52  warning  'CardDescription' is defined but never used                                                                         @typescript-eslint/no-unused-vars
+    6:10  warning  'Check' is defined but never used                                                                                   @typescript-eslint/no-unused-vars
+    6:17  warning  'X' is defined but never used                                                                                       @typescript-eslint/no-unused-vars
+   10:26  warning  'CheckCircle' is defined but never used                                                                             @typescript-eslint/no-unused-vars
+   10:39  warning  'XCircle' is defined but never used                                                                                 @typescript-eslint/no-unused-vars
+  108:8   warning  React Hook useEffect has a missing dependency: 'fetchBusinesses'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\admin\career\page.tsx
+   5:29  warning  'CardHeader' is defined but never used                                                                         @typescript-eslint/no-unused-vars
+   5:41  warning  'CardTitle' is defined but never used                                                                          @typescript-eslint/no-unused-vars
+  99:8   warning  React Hook useEffect has a missing dependency: 'fetchItems'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\admin\donations\page.tsx
+   10:48  error    Unexpected any. Specify a different type                                                                           @typescript-eslint/no-explicit-any
+   11:40  error    Unexpected any. Specify a different type                                                                           @typescript-eslint/no-explicit-any
+   46:8   warning  React Hook useEffect has a missing dependency: 'fetchDonations'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  139:51  error    Unexpected any. Specify a different type                                                                           @typescript-eslint/no-explicit-any
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\admin\events\page.tsx
+    6:28  warning  'Edit' is defined but never used                                                                                @typescript-eslint/no-unused-vars
+    6:34  warning  'CheckCircle' is defined but never used                                                                         @typescript-eslint/no-unused-vars
+    6:47  warning  'XCircle' is defined but never used                                                                             @typescript-eslint/no-unused-vars
+  101:8   warning  React Hook useEffect has a missing dependency: 'fetchEvents'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  218:59  error    Unexpected any. Specify a different type                                                                        @typescript-eslint/no-explicit-any
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\admin\page.tsx
+   5:10  warning  'Button' is defined but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    @typescript-eslint/no-unused-vars
+   9:14  warning  'ToggleLeft' is defined but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                @typescript-eslint/no-unused-vars
+   9:26  warning  'ToggleRight' is defined but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               @typescript-eslint/no-unused-vars
+  19:40  error    Unexpected any. Specify a different type                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              @typescript-eslint/no-explicit-any
+  41:9   error    Error: Calling setState synchronously within an effect can trigger cascading renders
+
+Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:
+* Update external systems with the latest state from React.
+* Subscribe for updates from some external system, calling setState in a callback function when external state changes.
+
+Calling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect).
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\admin\page.tsx:41:9
+  39 |
+  40 |     useEffect(() => {
+> 41 |         setLoading(true)
+     |         ^^^^^^^^^^ Avoid calling setState() directly within an effect
+  42 |         fetchStats(timeRange).finally(() => setLoading(false))
+  43 |     }, [])
+  44 |  react-hooks/set-state-in-effect
+  43:8   warning  React Hook useEffect has missing dependencies: 'fetchStats' and 'timeRange'. Either include them or remove the dependency array                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       react-hooks/exhaustive-deps
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\admin\reports\page.tsx
+    5:10  warning  'Card' is defined but never used                                                                                 @typescript-eslint/no-unused-vars
+    5:16  warning  'CardContent' is defined but never used                                                                          @typescript-eslint/no-unused-vars
+    8:5   warning  'Eye' is defined but never used                                                                                  @typescript-eslint/no-unused-vars
+    8:18  warning  'User' is defined but never used                                                                                 @typescript-eslint/no-unused-vars
+    8:24  warning  'Mail' is defined but never used                                                                                 @typescript-eslint/no-unused-vars
+    8:30  warning  'Calendar' is defined but never used                                                                             @typescript-eslint/no-unused-vars
+    8:40  warning  'ArrowRight' is defined but never used                                                                           @typescript-eslint/no-unused-vars
+   10:10  warning  'cn' is defined but never used                                                                                   @typescript-eslint/no-unused-vars
+  114:8   warning  React Hook useEffect has a missing dependency: 'fetchReports'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  119:19  warning  'res' is assigned a value but never used                                                                         @typescript-eslint/no-unused-vars
+  154:11  warning  'handleDelete' is assigned a value but never used                                                                @typescript-eslint/no-unused-vars
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\admin\users\page.tsx
+   10:5  warning  'Clock' is defined but never used                                                                              @typescript-eslint/no-unused-vars
+   14:5  warning  'Trash2' is defined but never used                                                                             @typescript-eslint/no-unused-vars
+  102:8  warning  React Hook useEffect has a missing dependency: 'fetchUsers'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\admin\verification\page.tsx
+    4:10   warning  'Card' is defined but never used                                                                                @typescript-eslint/no-unused-vars
+    4:16   warning  'CardContent' is defined but never used                                                                         @typescript-eslint/no-unused-vars
+    4:29   warning  'CardHeader' is defined but never used                                                                          @typescript-eslint/no-unused-vars
+    4:41   warning  'CardTitle' is defined but never used                                                                           @typescript-eslint/no-unused-vars
+    4:52   warning  'CardDescription' is defined but never used                                                                     @typescript-eslint/no-unused-vars
+    6:16   warning  'TabsContent' is defined but never used                                                                         @typescript-eslint/no-unused-vars
+    7:19   warning  'Check' is defined but never used                                                                               @typescript-eslint/no-unused-vars
+    7:26   warning  'X' is defined but never used                                                                                   @typescript-eslint/no-unused-vars
+    7:29   warning  'Building2' is defined but never used                                                                           @typescript-eslint/no-unused-vars
+    7:46   warning  'Calendar' is defined but never used                                                                            @typescript-eslint/no-unused-vars
+    7:125  warning  'Flag' is defined but never used                                                                                @typescript-eslint/no-unused-vars
+   27:40   error    Unexpected any. Specify a different type                                                                        @typescript-eslint/no-explicit-any
+  148:8    warning  React Hook useEffect has a missing dependency: 'fetchCounts'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  153:8    warning  React Hook useEffect has a missing dependency: 'fetchItems'. Either include it or remove the dependency array   react-hooks/exhaustive-deps
+  175:27   error    Unexpected any. Specify a different type                                                                        @typescript-eslint/no-explicit-any
+  259:50   error    Unexpected any. Specify a different type                                                                        @typescript-eslint/no-explicit-any
+  286:9    warning  Expected an assignment or function call and instead saw an expression                                           @typescript-eslint/no-unused-expressions
+  290:35   error    Unexpected any. Specify a different type                                                                        @typescript-eslint/no-explicit-any
+  398:58   error    Unexpected any. Specify a different type                                                                        @typescript-eslint/no-explicit-any
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\api\accommodations\[id]\route.ts
+   11:48  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   63:48  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   80:42  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  111:48  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  123:26  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\api\accommodations\route.ts
+   55:49  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   71:66  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  118:48  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  137:21  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\api\achievements\[id]\route.ts
+  4:10  warning  'cookies' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\api\achievements\route.ts
+  63:32  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\api\admin\accommodations\route.ts
+   19:49  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   59:55  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  109:26  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\api\admin\analytics\route.ts
+   27:54  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   36:56  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   69:45  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   83:35  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   97:35  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  114:68  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\api\admin\business\route.ts
+  19:22  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\api\admin\career\route.ts
+  25:20  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  29:26  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  37:26  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  45:26  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  74:22  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\api\admin\content\route.ts
+  24:20  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  78:22  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\api\admin\events\route.ts
+  19:22  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\api\admin\support\route.ts
+  18:22  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\api\admin\users\route.ts
+  19:22  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\api\announcements\[id]\route.ts
+  19:14  warning  'error' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\api\announcements\route.ts
+  12:14  warning  'error' is defined but never used  @typescript-eslint/no-unused-vars
+  30:14  warning  'error' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\api\auth\me\route.ts
+  3:10  warning  'adminAuth' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\api\auth\register\route.ts
+  8:30  warning  'password' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\api\business\[id]\route.ts
+  4:10  warning  'cookies' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\api\business\route.ts
+  20:32  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\api\career\jobs\route.ts
+  22:32  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\api\career\mentorship\route.ts
+  20:22  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  56:21  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\api\career\scholarships\route.ts
+  23:22  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\api\donations\public\route.ts
+  24:51  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  24:62  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  41:23  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  41:31  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  56:15  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  61:36  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\api\events\[id]\route.ts
+  4:10  warning  'cookies' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\api\events\route.ts
+  20:32  error    Unexpected any. Specify a different type           @typescript-eslint/no-explicit-any
+  21:15  warning  'filterStatus' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\api\help\route.ts
+  41:32  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\api\members\[id]\route.ts
+  100:42  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  101:46  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\api\members\feed\route.ts
+  49:29  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  50:35  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  51:31  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  52:37  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  53:36  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\api\members\route.ts
+  21:22  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  71:57  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\api\profile\route.ts
+  24:27  warning  '_' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\api\profile\upload\route.ts
+  46:15  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  57:21  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\api\reports\route.ts
+  62:22  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\api\social\feed\route.ts
+   47:45  error  Unexpected any. Specify a different type                                                                             @typescript-eslint/no-explicit-any
+   59:53  error  Unexpected any. Specify a different type                                                                             @typescript-eslint/no-explicit-any
+   71:57  error  Unexpected any. Specify a different type                                                                             @typescript-eslint/no-explicit-any
+   96:13  error  Use "@ts-expect-error" instead of "@ts-ignore", as "@ts-ignore" will do nothing if the following line is error-free  @typescript-eslint/ban-ts-comment
+   98:28  error  Unexpected any. Specify a different type                                                                             @typescript-eslint/no-explicit-any
+   99:28  error  Unexpected any. Specify a different type                                                                             @typescript-eslint/no-explicit-any
+  100:28  error  Unexpected any. Specify a different type                                                                             @typescript-eslint/no-explicit-any
+  101:43  error  Unexpected any. Specify a different type                                                                             @typescript-eslint/no-explicit-any
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\api\social\interactions\route.ts
+   89:34  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  120:43  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  126:45  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  127:40  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  131:51  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  132:51  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  133:67  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\api\upload\route.ts
+  49:15  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\business\[id]\edit\page.tsx
+  116:23  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\business\[id]\page.tsx
+    9:31   warning  'Globe' is defined but never used                                @typescript-eslint/no-unused-vars
+    9:38   warning  'Clock' is defined but never used                                @typescript-eslint/no-unused-vars
+    9:56   warning  'Star' is defined but never used                                 @typescript-eslint/no-unused-vars
+    9:71   warning  'Share2' is defined but never used                               @typescript-eslint/no-unused-vars
+    9:87   warning  'Calendar' is defined but never used                             @typescript-eslint/no-unused-vars
+    9:111  warning  'Info' is defined but never used                                 @typescript-eslint/no-unused-vars
+   66:11   warning  'isOwner' is assigned a value but never used                     @typescript-eslint/no-unused-vars
+  324:99   error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\business\add\page.tsx
+  13:36  warning  'Building2' is defined but never used     @typescript-eslint/no-unused-vars
+  97:23  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\business\page.tsx
+  11:40  warning  'Loader2' is defined but never used       @typescript-eslint/no-unused-vars
+  11:73  warning  'Mail' is defined but never used          @typescript-eslint/no-unused-vars
+  11:79  warning  'Phone' is defined but never used         @typescript-eslint/no-unused-vars
+  11:86  warning  'Info' is defined but never used          @typescript-eslint/no-unused-vars
+  14:10  warning  'ReportButton' is defined but never used  @typescript-eslint/no-unused-vars
+  98:29  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\business\payment\[id]\page.tsx
+  23:13  warning  'user' is assigned a value but never used             @typescript-eslint/no-unused-vars
+  23:19  warning  'isLoading' is assigned a value but never used        @typescript-eslint/no-unused-vars
+  26:12  warning  'businessName' is assigned a value but never used     @typescript-eslint/no-unused-vars
+  26:26  warning  'setBusinessName' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\career\jobs\[id]\edit\page.tsx
+   62:22  warning  'err' is defined but never used  @typescript-eslint/no-unused-vars
+  119:18  warning  'err' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\career\jobs\[id]\page.tsx
+  10:29   warning  'Clock' is defined but never used   @typescript-eslint/no-unused-vars
+  10:91   warning  'Globe' is defined but never used   @typescript-eslint/no-unused-vars
+  10:112  warning  'Share2' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\career\jobs\add\page.tsx
+   9:29  warning  'CardHeader' is defined but never used  @typescript-eslint/no-unused-vars
+   9:41  warning  'CardTitle' is defined but never used   @typescript-eslint/no-unused-vars
+  78:18  warning  'err' is defined but never used         @typescript-eslint/no-unused-vars
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\career\mentorship\[id]\edit\page.tsx
+    8:10  warning  'Input' is defined but never used            @typescript-eslint/no-unused-vars
+    9:29  warning  'CardHeader' is defined but never used       @typescript-eslint/no-unused-vars
+    9:41  warning  'CardTitle' is defined but never used        @typescript-eslint/no-unused-vars
+    9:52  warning  'CardDescription' is defined but never used  @typescript-eslint/no-unused-vars
+   50:22  warning  'err' is defined but never used              @typescript-eslint/no-unused-vars
+  105:18  warning  'err' is defined but never used              @typescript-eslint/no-unused-vars
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\career\mentorship\[id]\page.tsx
+   10:52   warning  'CardDescription' is defined but never used                      @typescript-eslint/no-unused-vars
+   11:35   warning  'Globe' is defined but never used                                @typescript-eslint/no-unused-vars
+   11:121  warning  'Share2' is defined but never used                               @typescript-eslint/no-unused-vars
+   11:129  warning  'Shield' is defined but never used                               @typescript-eslint/no-unused-vars
+   15:10   warning  'Separator' is defined but never used                            @typescript-eslint/no-unused-vars
+  210:49   error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  210:154  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  253:154  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  266:49   error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  266:51   error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  266:184  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\career\mentorship\add\page.tsx
+  51:18  warning  'err' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\career\mentorship\register\page.tsx
+   8:10  warning  'Input' is defined but never used       @typescript-eslint/no-unused-vars
+   9:29  warning  'CardHeader' is defined but never used  @typescript-eslint/no-unused-vars
+   9:41  warning  'CardTitle' is defined but never used   @typescript-eslint/no-unused-vars
+  64:18  warning  'err' is defined but never used         @typescript-eslint/no-unused-vars
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\career\page.tsx
+   10:52  warning  'CardDescription' is defined but never used                                                                  @typescript-eslint/no-unused-vars
+   12:99  warning  'BadgeCheck' is defined but never used                                                                       @typescript-eslint/no-unused-vars
+   13:14  warning  'formatDate' is defined but never used                                                                       @typescript-eslint/no-unused-vars
+   16:10  warning  'ReportButton' is defined but never used                                                                     @typescript-eslint/no-unused-vars
+  154:8   warning  React Hook useEffect has a missing dependency: 'getToken'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  254:73  error    Unexpected any. Specify a different type                                                                     @typescript-eslint/no-explicit-any
+  658:53  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`                                              react/no-unescaped-entities
+  658:61  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`                                              react/no-unescaped-entities
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\career\scholarships\[id]\edit\page.tsx
+    9:29  warning  'CardHeader' is defined but never used  @typescript-eslint/no-unused-vars
+    9:41  warning  'CardTitle' is defined but never used   @typescript-eslint/no-unused-vars
+   58:22  warning  'err' is defined but never used         @typescript-eslint/no-unused-vars
+  114:18  warning  'err' is defined but never used         @typescript-eslint/no-unused-vars
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\career\scholarships\[id]\page.tsx
+    9:29   warning  'CardHeader' is defined but never used                           @typescript-eslint/no-unused-vars
+    9:41   warning  'CardTitle' is defined but never used                            @typescript-eslint/no-unused-vars
+    9:52   warning  'CardDescription' is defined but never used                      @typescript-eslint/no-unused-vars
+   10:83   warning  'Info' is defined but never used                                 @typescript-eslint/no-unused-vars
+   10:89   warning  'CheckCircle' is defined but never used                          @typescript-eslint/no-unused-vars
+   10:102  warning  'Share2' is defined but never used                               @typescript-eslint/no-unused-vars
+   37:19   warning  'isAuthenticated' is assigned a value but never used             @typescript-eslint/no-unused-vars
+  270:53   error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  270:134  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\career\scholarships\add\page.tsx
+   9:29  warning  'CardHeader' is defined but never used  @typescript-eslint/no-unused-vars
+   9:41  warning  'CardTitle' is defined but never used   @typescript-eslint/no-unused-vars
+  75:18  warning  'err' is defined but never used         @typescript-eslint/no-unused-vars
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\dashboard\page.tsx
+    6:29  warning  'CardHeader' is defined but never used                                                                                                                                                                                                                                                   @typescript-eslint/no-unused-vars
+    6:41  warning  'CardTitle' is defined but never used                                                                                                                                                                                                                                                    @typescript-eslint/no-unused-vars
+    6:52  warning  'CardDescription' is defined but never used                                                                                                                                                                                                                                              @typescript-eslint/no-unused-vars
+   16:5   warning  'Loader2' is defined but never used                                                                                                                                                                                                                                                      @typescript-eslint/no-unused-vars
+   76:44  error    Unexpected any. Specify a different type                                                                                                                                                                                                                                                 @typescript-eslint/no-explicit-any
+  200:55  error    Unexpected any. Specify a different type                                                                                                                                                                                                                                                 @typescript-eslint/no-explicit-any
+  205:53  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\donations\page.tsx
+   17:13   warning  'isAuthenticated' is assigned a value but never used                                                                                                                                                                                                                                     @typescript-eslint/no-unused-vars
+   25:55   error    Unexpected any. Specify a different type                                                                                                                                                                                                                                                 @typescript-eslint/no-explicit-any
+   25:70   error    Unexpected any. Specify a different type                                                                                                                                                                                                                                                 @typescript-eslint/no-explicit-any
+  142:93   error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`                                                                                                                                                                                                                          react/no-unescaped-entities
+  142:186  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`                                                                                                                                                                                                                          react/no-unescaped-entities
+  240:76   warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+  316:81   error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`                                                                                                                                                                                                                          react/no-unescaped-entities
+  316:121  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`                                                                                                                                                                                                                          react/no-unescaped-entities
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\events\[id]\edit\page.tsx
+  129:23  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\events\[id]\page.tsx
+    9:52  warning  'User' is defined but never used                                                                             @typescript-eslint/no-unused-vars
+    9:74  warning  'Share2' is defined but never used                                                                           @typescript-eslint/no-unused-vars
+    9:96  warning  'Heart' is defined but never used                                                                            @typescript-eslint/no-unused-vars
+   69:8   warning  React Hook useEffect has a missing dependency: 'getToken'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  416:91  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`                                              react/no-unescaped-entities
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\events\add\page.tsx
+   10:61  warning  'Megaphone' is defined but never used                                                                                                                                                                                                                                                    @typescript-eslint/no-unused-vars
+  102:23  error    Unexpected any. Specify a different type                                                                                                                                                                                                                                                 @typescript-eslint/no-explicit-any
+  385:53  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\events\page.tsx
+    9:29  warning  'CardHeader' is defined but never used                                                                        @typescript-eslint/no-unused-vars
+    9:41  warning  'CardTitle' is defined but never used                                                                         @typescript-eslint/no-unused-vars
+    9:52  warning  'CardDescription' is defined but never used                                                                   @typescript-eslint/no-unused-vars
+   11:10  warning  'Input' is defined but never used                                                                             @typescript-eslint/no-unused-vars
+   14:61  warning  'Trash2' is defined but never used                                                                            @typescript-eslint/no-unused-vars
+   14:72  warning  'Share2' is defined but never used                                                                            @typescript-eslint/no-unused-vars
+   14:80  warning  'Info' is defined but never used                                                                              @typescript-eslint/no-unused-vars
+   14:99  warning  'Filter' is defined but never used                                                                            @typescript-eslint/no-unused-vars
+   17:10  warning  'ReportButton' is defined but never used                                                                      @typescript-eslint/no-unused-vars
+   21:10  warning  'toast' is defined but never used                                                                             @typescript-eslint/no-unused-vars
+  163:8   warning  React Hook useEffect has a missing dependency: 'fetchData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\help\[id]\page.tsx
+    9:52  warning  'CardDescription' is defined but never used                                                                                                                                                                                                                                              @typescript-eslint/no-unused-vars
+   10:66  warning  'Phone' is defined but never used                                                                                                                                                                                                                                                        @typescript-eslint/no-unused-vars
+   10:73  warning  'MapPin' is defined but never used                                                                                                                                                                                                                                                       @typescript-eslint/no-unused-vars
+  255:53  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\help\page.tsx
+   20:10   warning  'ReportButton' is defined but never used                                                                             @typescript-eslint/no-unused-vars
+   53:109  error    Unexpected any. Specify a different type                                                                             @typescript-eslint/no-explicit-any
+  105:84   error    Unexpected any. Specify a different type                                                                             @typescript-eslint/no-explicit-any
+  220:90   error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`                                                      react/no-unescaped-entities
+  247:108  error    Unexpected any. Specify a different type                                                                             @typescript-eslint/no-explicit-any
+  296:89   error    Unexpected any. Specify a different type                                                                             @typescript-eslint/no-explicit-any
+  439:52   error    Unexpected any. Specify a different type                                                                             @typescript-eslint/no-explicit-any
+  440:62   error    Unexpected any. Specify a different type                                                                             @typescript-eslint/no-explicit-any
+  532:8    warning  React Hook useEffect has a missing dependency: 'fetchAllRequests'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  876:35   warning  'activeCount' is assigned a value but never used                                                                     @typescript-eslint/no-unused-vars
+  877:35   warning  'receivedCount' is assigned a value but never used                                                                   @typescript-eslint/no-unused-vars
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\join\page.tsx
+  65:25  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\login\page.tsx
+  10:35  warning  'Info' is defined but never used           @typescript-eslint/no-unused-vars
+  16:13  warning  'user' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\members\[id]\page.tsx
+   10:29  warning  'CardHeader' is defined but never used    @typescript-eslint/no-unused-vars
+   10:41  warning  'CardTitle' is defined but never used     @typescript-eslint/no-unused-vars
+   11:59  warning  'Users' is defined but never used         @typescript-eslint/no-unused-vars
+   28:11  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   29:17  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   30:13  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  190:68  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  202:74  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  216:70  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\posts\create\page.tsx
+   3:10  warning  'useState' is defined but never used      @typescript-eslint/no-unused-vars
+  18:11  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\profile\page.tsx
+   25:46  error    Unexpected any. Specify a different type                                                                     @typescript-eslint/no-explicit-any
+   81:8   warning  React Hook useEffect has a missing dependency: 'getToken'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  251:45  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`                                              react/no-unescaped-entities
+  251:56  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`                                              react/no-unescaped-entities
+  357:92  error    Unexpected any. Specify a different type                                                                     @typescript-eslint/no-explicit-any
+  358:86  error    Unexpected any. Specify a different type                                                                     @typescript-eslint/no-explicit-any
+  359:88  error    Unexpected any. Specify a different type                                                                     @typescript-eslint/no-explicit-any
+  360:94  error    Unexpected any. Specify a different type                                                                     @typescript-eslint/no-explicit-any
+  361:93  error    Unexpected any. Specify a different type                                                                     @typescript-eslint/no-explicit-any
+  362:94  error    Unexpected any. Specify a different type                                                                     @typescript-eslint/no-explicit-any
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\app\social\page.tsx
+    6:36  warning  'MessageCircle' is defined but never used                        @typescript-eslint/no-unused-vars
+   24:16  error    Unexpected any. Specify a different type                         @typescript-eslint/no-explicit-any
+  186:74  error    Unexpected any. Specify a different type                         @typescript-eslint/no-explicit-any
+  205:99  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  236:44  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\components\admin\admin-sidebar.tsx
+  5:60  warning  'Flag' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\components\auth-guard.tsx
+  43:77  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      react/no-unescaped-entities
+  76:17  error  Error: Calling setState synchronously within an effect can trigger cascading renders
+
+Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:
+* Update external systems with the latest state from React.
+* Subscribe for updates from some external system, calling setState in a callback function when external state changes.
+
+Calling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect).
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\components\auth-guard.tsx:76:17
+  74 |                 router.push("/dashboard")
+  75 |             } else if (requireVerified && user && user.status !== 'approved' && user.role !== 'admin') {
+> 76 |                 setIsUnverified(true)
+     |                 ^^^^^^^^^^^^^^^ Avoid calling setState() directly within an effect
+  77 |             } else {
+  78 |                 setIsUnverified(false)
+  79 |             }  react-hooks/set-state-in-effect
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\components\home\achievements-carousel.tsx
+    9:11  warning  'Achievement' is defined but never used                          @typescript-eslint/no-unused-vars
+   22:54  error    Unexpected any. Specify a different type                         @typescript-eslint/no-explicit-any
+   36:31  error    Unexpected any. Specify a different type                         @typescript-eslint/no-explicit-any
+  184:41  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  184:67  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\components\home\emergency-alerts.tsx
+  6:10  warning  'HeartPulse' is defined but never used  @typescript-eslint/no-unused-vars
+  6:22  warning  'Droplet' is defined but never used     @typescript-eslint/no-unused-vars
+  7:8   warning  'Link' is defined but never used        @typescript-eslint/no-unused-vars
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\components\landing\hero.tsx
+  14:9  error  Error: Calling setState synchronously within an effect can trigger cascading renders
+
+Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:
+* Update external systems with the latest state from React.
+* Subscribe for updates from some external system, calling setState in a callback function when external state changes.
+
+Calling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect).
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\components\landing\hero.tsx:14:9
+  12 |
+  13 |     useEffect(() => {
+> 14 |         setMounted(true)
+     |         ^^^^^^^^^^ Avoid calling setState() directly within an effect
+  15 |         fetch('/api/stats')
+  16 |             .then(res => res.json())
+  17 |             .then(data => setStats(data))  react-hooks/set-state-in-effect
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\components\layout\navbar.tsx
+  14:47  warning  'GraduationCap' is defined but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  @typescript-eslint/no-unused-vars
+  14:62  warning  'Building2' is defined but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      @typescript-eslint/no-unused-vars
+  14:73  warning  'Calendar' is defined but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       @typescript-eslint/no-unused-vars
+  14:83  warning  'Trophy' is defined but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         @typescript-eslint/no-unused-vars
+  21:11  warning  'router' is assigned a value but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                @typescript-eslint/no-unused-vars
+  28:9   error    Error: Calling setState synchronously within an effect can trigger cascading renders
+
+Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:
+* Update external systems with the latest state from React.
+* Subscribe for updates from some external system, calling setState in a callback function when external state changes.
+
+Calling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect).
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\components\layout\navbar.tsx:28:9
+  26 |     // Close mobile menu on route change
+  27 |     useEffect(() => {
+> 28 |         setIsMobileMenuOpen(false)
+     |         ^^^^^^^^^^^^^^^^^^^ Avoid calling setState() directly within an effect
+  29 |     }, [pathname])
+  30 |
+  31 |     useEffect(() => {  react-hooks/set-state-in-effect
+  32:9   error    Error: Calling setState synchronously within an effect can trigger cascading renders
+
+Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:
+* Update external systems with the latest state from React.
+* Subscribe for updates from some external system, calling setState in a callback function when external state changes.
+
+Calling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect).
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\components\layout\navbar.tsx:32:9
+  30 |
+  31 |     useEffect(() => {
+> 32 |         setMounted(true)
+     |         ^^^^^^^^^^ Avoid calling setState() directly within an effect
+  33 |     }, [])
+  34 |
+  35 |     // Only render auth-dependent UI after client mount to avoid hydration mismatch        react-hooks/set-state-in-effect
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\components\notifications\notification-bell.tsx
+    9:5   warning  'DropdownMenuItem' is defined but never used                     @typescript-eslint/no-unused-vars
+   11:5   warning  'DropdownMenuSeparator' is defined but never used                @typescript-eslint/no-unused-vars
+  177:55  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\components\social\CommentSection.tsx
+   48:8   warning  React Hook useEffect has a missing dependency: 'fetchComments'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  143:18  warning  'error' is defined but never used                                                                                 @typescript-eslint/no-unused-vars
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\components\social\SocialPostCard.tsx
+   7:40  warning  'MoreHorizontal' is defined but never used         @typescript-eslint/no-unused-vars
+  28:20  error    Unexpected any. Specify a different type           @typescript-eslint/no-explicit-any
+  48:12  warning  'isLoading' is assigned a value but never used     @typescript-eslint/no-unused-vars
+  48:23  warning  'setIsLoading' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\components\support\chatbot.tsx
+  9:8  warning  'Link' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\components\ui\report-button.tsx
+  3:28  warning  'useEffect' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\components\ui\share-button.tsx
+  106:11  warning  'encodedTitle' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\components\ui\textarea.tsx
+  4:18  error  An interface declaring no members is equivalent to its supertype  @typescript-eslint/no-empty-object-type
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\components\ui\use-toast.ts
+    7:7   warning  'TOAST_REMOVE_DELAY' is assigned a value but never used  @typescript-eslint/no-unused-vars
+   91:22  error    Unexpected any. Specify a different type                 @typescript-eslint/no-explicit-any
+  104:18  error    Unexpected any. Specify a different type                 @typescript-eslint/no-explicit-any
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\lib\auth-context.tsx
+   20:6   warning  'UserRole' is defined but never used      @typescript-eslint/no-unused-vars
+  179:25  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\ashish k amin\Desktop\projects\CommuNet_Community_Portal\web\src\lib\auth.ts
+  22:14  warning  'error' is defined but never used         @typescript-eslint/no-unused-vars
+  65:42  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  68:14  warning  '_' is defined but never used             @typescript-eslint/no-unused-vars
+  82:42  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  85:14  warning  '_' is defined but never used             @typescript-eslint/no-unused-vars
+
+Γ£û 368 problems (161 errors, 207 warnings)
+
