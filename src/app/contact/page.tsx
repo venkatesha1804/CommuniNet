@@ -33,15 +33,43 @@ export default function ContactPage() {
     }
 
     const handleSubmit = async (e: React.FormEvent) => {
-        e.preventDefault()
-        if (!validate()) return
-        setIsSubmitting(true)
-        // Simulate API call
-        await new Promise(resolve => setTimeout(resolve, 1500))
-        alert("Message sent successfully!")
+    e.preventDefault()
+
+    if (!validate()) return
+
+    setIsSubmitting(true)
+
+    try {
+        const response = await fetch("/api/contact", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+            },
+            body: JSON.stringify(formData),
+        })
+
+        const result = await response.json()
+
+        if (result.success) {
+            alert(result.message)
+
+            setFormData({
+                name: "",
+                phone: "",
+                email: "",
+                message: "",
+            })
+        } else {
+            alert(result.message)
+        }
+
+    } catch (error) {
+        console.error(error)
+        alert("Something went wrong. Please try again.")
+    } finally {
         setIsSubmitting(false)
-        setFormData({ name: '', phone: '', email: '', message: '' })
     }
+}
 
     return (
         <div className="min-h-screen flex flex-col bg-[#FAF9F6]">
@@ -71,7 +99,7 @@ export default function ContactPage() {
                                     </div>
                                     <div>
                                         <h3 className="font-sans text-xl font-bold text-slate-900 mb-2 tracking-tight">Call Us</h3>
-                                        <p className="text-base text-slate-600 font-medium">+91 99887 76655</p>
+                                        <p className="text-base text-slate-600 font-medium">+91 8310243230</p>
                                         <p className="text-sm text-slate-400 mt-1 font-medium">Mon-Sat, 9am - 6pm</p>
                                     </div>
                                 </CardContent>
